@@ -1,2 +1,0 @@
-# PerosnalPage
-Created with CodeSandbox

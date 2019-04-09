@@ -1,0 +1,22 @@
+
+.navbar {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+.icon {
+  float: left;
+}
+ul {
+  float: right;
+  display: flex;
+  width: 50px;
+  padding: 1em 3em 1em;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+ul:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}

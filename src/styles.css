@@ -1,5 +1,14 @@
+import {water} from "../public/assets/water.jpg";
+
 .App {
   font-family: sans-serif;
+}
+.main {
+  /* background-color: red; */
+  height: 1000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://c.pxhere.com/photos/13/21/colorful_colour_coloured_tiles_colourful_colours_design_pastel_colors_pattern-915148.jpg!d");
 }
 @media (min-width: 480px) {
   nav {
@@ -31,8 +40,10 @@ li {
 }
 .icon {
   float: left;
+  
 }
 ul {
+  
   float: right;
   display: flex;
   flex-direction: row;
@@ -46,4 +57,8 @@ ul {
 
 ul:hover {
   background-color: rgba(0, 0, 0, 0.09);
+  -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    transition: transform .5s;
 }

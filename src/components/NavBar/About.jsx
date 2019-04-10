@@ -6,8 +6,13 @@ import ProjectTryOut from "../Projects/tryout.jsx";
 class About extends Component {
   render() {
     return (
-      <div class="page-wrapper">
-        <IntroContent />
+      <div>
+        <div class="page-wrapper">
+          <IntroContent />
+        </div>
+        <div class="divider" />
+
+        <ProjectTryOut />
       </div>
     );
   }

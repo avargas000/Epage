@@ -5,7 +5,14 @@ ParallaxImage {
   padding-right: 60px;
   display: block;
 }
-div {
- background-color: white;
- height: 400px;
+
+p {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 200;
+  font-size: 25px;
+  padding: 0 10em 0 10em;
+}
+
+#project{
+  height: 600px;
 }

@@ -1,12 +1,33 @@
 .App {
   font-family: sans-serif;
 }
-
-.navbar {
-  height: 100px;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
+@media (min-width: 480px) {
+  nav {
+    display: block;
+  }
+}
+#navicon {
+  height: 50px;
+  width: 50px;
   display: inline-block;
+}
+#lefty {
+  display: inline-block;
+  padding-top: 2em;
+}
+
+nav {
+  height: 100px;
+  background-color: rgba(161, 161, 161, 0.116);
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 .icon {
   float: left;
@@ -14,6 +35,9 @@
 ul {
   float: right;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
   width: 50px;
   padding: 1em 3em 1em;
   font-size: 20px;
@@ -21,5 +45,5 @@ ul {
 }
 
 ul:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.09);
 }

@@ -1,8 +1,20 @@
 import React, { Component } from "react";
+import ProjectTryOut from "../Projects/tryout.jsx";
+import IntroContent from "../About";
 
 class Contact extends Component {
   render() {
-    return <h2>Contact</h2>;
+    return (
+      <div>
+        <h2>Projects</h2>
+        <div class="page-wrapper">
+          <IntroContent />
+        </div>
+        <div class="divider" />
+
+        <ProjectTryOut />
+      </div>
+    );
   }
 }
 

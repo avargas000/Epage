@@ -8,6 +8,7 @@ import projectArray from "./index.json";
 
 export default class AllProjects extends React.Component {
   constructor(props) {
+    this.state = {};
     super(props);
     this.state = {
       title: "Project #1",

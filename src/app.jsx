@@ -39,11 +39,7 @@ function FrontPage() {
           </Switch>
         </div>
       </Router>
-      <div className="main">
-        <div className="minimain">
-          <h1>WELCOME</h1>{" "}
-        </div>
-      </div>
+      <div className="main" />
     </div>
   );
 }

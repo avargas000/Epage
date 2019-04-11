@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./index.scss";
 import ParallaxImage from "react-image-parallax2";
-import plane from "../../../public/assets/plane.jpg";
-import wood from "../../../public/assets/wood.jpeg";
-import water from "../../../public/assets/water.jpg";
+import plane from "../../assets/plane.jpg";
+import wood from "../../assets/wood.jpeg";
+import water from "../../assets/water.jpg";
 import projectArray from "./index.json";
 
 export default class AllProjects extends React.Component {

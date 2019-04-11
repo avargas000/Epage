@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.scss";
-import logo from "../../../public/assets/china.jpeg";
+import logo from "../../assets/china.jpeg";
 
 export default class IntroContent extends React.Component {
   constructor(props) {

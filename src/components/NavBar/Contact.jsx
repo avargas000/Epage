@@ -1,6 +1,10 @@
 import React, { Component } from "react";
-import rezzy from "../../../public/assets/rezzy.jpg";
+import rezzy from "../../assets/rezzy.jpg";
 import "./contact.scss";
+
+
+// ./../../public/assets/wood.jpeg"
+
 
 class Contact extends Component {
   render() {

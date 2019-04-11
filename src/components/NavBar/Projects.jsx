@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import AllProjects from "../Projects/index.jsx";
-// import AllProjects from '.components/projects/index.jsx'
+
 
 class Home extends Component {
   render() {

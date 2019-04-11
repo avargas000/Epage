@@ -22,3 +22,41 @@ Link{
 #project{
   height: 600px;
 }
+.ProjectButton{
+  background-color: darkslategrey;
+  color: white;
+  padding: .5em;
+  border-radius: 15%;
+  text-decoration: none;
+  float:right;
+  margin-left: 2em;
+}
+.GitHubButton{
+  background-color: darkolivegreen;
+  color: white;
+  text-decoration: none;
+  padding: .5em;
+  border-radius: 15%;  
+  align-items: flex-end;
+  margin-left: 2em;
+  float:right;
+  
+  
+
+}
+
+.LinkedInButton{
+  background-color: seagreen;
+  color: white;
+  text-decoration: none;
+  padding: .5em;
+  border-radius: 15%;  
+  float:right;
+  margin-left: 2em;
+
+}
+.button:focus,
+a:hover {
+  background-color: FireBrick;
+  color: White;
+}

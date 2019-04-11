@@ -19,7 +19,20 @@ class ProjectTryOut extends Component {
               <div id="project">
                 <h2>{value.title}</h2>
                 <p>{value.content}</p>
-                <Link>{value.link}</Link>
+                <a href={value.link} class="ProjectButton" role="button">
+                  ProjectWebsite
+                </a>
+
+                <a href={value.git} class="GitHubButton" role="button">
+                  Visit GitHub
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/ana-vargas-9a085754/"
+                  class="LinkedInButton"
+                  role="button"
+                >
+                  Visit LinkedIn
+                </a>
               </div>
             );
           }

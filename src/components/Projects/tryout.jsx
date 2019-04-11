@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import "./index.scss";
 import ParallaxImage from "react-image-parallax2";
 import { projectArray } from "./index.json";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import IntroContent from "../About";
 
@@ -18,8 +19,7 @@ class ProjectTryOut extends Component {
               <div id="project">
                 <h2>{value.title}</h2>
                 <p>{value.content}</p>
-                <a href={value.link} />
-                <a>{value.link}</a>
+                <Link>{value.link}</Link>
               </div>
             );
           }

@@ -1,11 +1,16 @@
 import React, { Component } from "react";
-import ProjectTryOut from "../Projects/tryout.jsx";
-import IntroContent from "../About";
+import rezzy from "../../../public/assets/rezzy.jpg";
 import "./contact.scss";
 
 class Contact extends Component {
   render() {
-    return <h1>Contact</h1>;
+    return (
+      <div>
+        <div class="page-wrapper">
+          <img id="rez" src={rezzy} alt="" />
+        </div>
+      </div>
+    );
   }
 }
 

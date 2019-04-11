@@ -4,8 +4,9 @@
       "id": 1,
       "type": "project",
       "title": "Pokedex Project",
-      "content": "during this Project, the class was encouraged to create a pokemon trainer showcase (Pokedex) website that displayed information using AJAX to retrieve said data. We focused on client side technologies and learned about Object Oriented programming, JavaScript, APIs, AJAX, grid systems, SASS, UI/UX and deployment via Github Pages.",
-      "link": "https://eggsonthewall.herokuapp.com/"
+      "content": "during this Project, the class was encouraged to create a pokemon trainer showcase (Pokedex) website that displayed information using AJAX to retrieve said data. We focused on client side technologies and learned about Object Oriented programming, JavaScript, APIs, AJAX, grid systems, SASS, UI/UX and deployment via Github Pages. DEPLOYED ON GITHUB",
+      "link": "https://github.com/avargas000/pokedex",
+      "link": "https://avargas000.github.io/pokedex/"
     },
     {
       "type": "parallax",
@@ -15,7 +16,8 @@
       "id": 2,
       "type": "project",
       "title": "Pokemon Gym",
-      "content": "The main goal was to work together via GitHub  implementing Agile software. It was imperative to understand each member's code before implementing your own. This skill is essential to successfully work within a software engineering team."
+      "content": "The main goal was to work together via GitHub  implementing Agile software. It was imperative to understand each member's code before implementing your own. This skill is essential to successfully work within a software engineering team.",
+      "link": "https://uddinkamran.github.io/Pokemon_GYM/"
     },
     {
       "type": "parallax",
@@ -25,7 +27,8 @@
       "id": 3,
       "type": "project",
       "title": "Bakery Website",
-      "content": "The main goal was to work on Ubuntu using Ruby and Sinatra along with other gems. During this project, we built a class object per item sold. These objects represent digital versions of cookies/cakes/muffins which were stored as data that we utilized when displaying information about our items. Also learned to make a CSV file."
+      "content": "The main goal was to work on Ubuntu using Ruby and Sinatra along with other gems. During this project, we built a class object per item sold. These objects represent digital versions of cookies/cakes/muffins which were stored as data that we utilized when displaying information about our items. Also learned to make a CSV file. DEPLOYED ON HEROKU",
+      "link": "https://bakedbystudents.herokuapp.com/"
     },
     {
       "type": "parallax",
@@ -46,8 +49,9 @@
     {
       "id": 5,
       "type": "project",
-      "title": "Project Numero 5",
-      "content": "We focused on creating a one page website for a fictional paper company that would be exciting for the end user. We utilized semantic HTML, proper element targeting in CSS, behavioral Javascript, and animations."
+      "title": "FullStack School Admin Page",
+      "content": "this website was made with Ruby on rails. The purpose of this web application was to keep track of academic records of students, teachers, as well as courses and cohorts. Designed with Semantic UI",
+      "link": "https://github.com/avargas000/language-school-panel"
     }
   ]
 }

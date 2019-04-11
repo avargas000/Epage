@@ -11,19 +11,7 @@ export default class AllProjects extends React.Component {
     this.state = {};
     super(props);
     this.state = {
-      title: "Project #1",
-      content:
-        "We focused on creating a one page website for a fictional paper company that would be exciting for the end user. We utilized semantic HTML, proper element targeting in CSS, behavioral Javascript, and animations.",
-      titleTwo: "Project #2",
-      contentTwo: "this is where the info for project 2 goes",
-      titleThree: "Project #3",
-      contentThree: "this is where the info for project 2 goes",
-      titleFour: "Project #4",
-      contentFour: "this is where the info for project 2 goes",
-      titleFive: "Project #5",
-      contentFive: "this is where the info for project 2 goes",
-      titleSix: "Project #6",
-      contentSix: "this is where the info for project 2 goes"
+      id: "projectSection"
     };
   }
 
